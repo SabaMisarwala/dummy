@@ -1,0 +1,321 @@
+/*Gallery*/
+.dottedCircle
+{
+    height:250px;
+    width:250px;
+    border:3px dotted green;
+    border-radius: 50%;
+    margin-left:120px;
+    margin-top: 50px;
+    background-color: rgb(254,252,243);
+    text-align: center;
+}
+
+.logo
+{
+  width:300px;
+  margin-top: 50px;
+    
+}
+@media(max-width:768px)
+{
+  .logo
+    {
+        margin-left: 35px;
+    }
+}
+
+
+#myCarousel
+{
+    margin-top:-70px;
+    z-index: -1;
+}
+
+@media(max-width:768px)
+{
+ #myCarousel
+    {
+        margin-top: 40px;
+        padding: 10px;
+    }
+}
+
+
+
+#left
+{
+    margin-top: 100px;    
+    height:350px;
+    width: 600px;
+    margin-left: 40px;
+}
+
+@media(max-width:768px)
+{
+#left
+    {
+        height: 200px;
+        width: 385px;
+        margin-left: 10px;
+    }
+}
+
+
+
+#para
+{
+    font-size: 38px;
+    width:500px;
+    margin-top: 80px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: 'rasmusregular',serif;
+}
+@media(max-width:768px)
+{
+    #para
+    {
+        font-size: 28px;
+        width: 300px;
+        text-align: center;
+        
+    }
+}
+#right
+{
+    height:550px;
+    width:350px;
+    float: right;
+    margin-top: -180px;
+   
+}
+@media(max-width:768px)
+{
+    #right
+    {
+        margin-top: 50px;
+        padding-right: 12px;
+    }
+}
+    p::before {
+    content: "-'-";
+
+}
+
+ p::after {
+    content:"-'-" ;
+}
+
+.slider2 .item
+{
+    height:500px;
+    width: 90%;
+    padding-left: 120px;
+    margin-top: 100px;
+    
+}
+
+
+.dottedsquare
+{
+    height:400px;
+    border: 3px dotted #046A38;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ h4 span
+{
+    display: block;
+    line-height:30px;
+    padding-left:55px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.first, .second, .third, .forth, .fifth
+{
+    
+  
+    border-right:2px dotted green;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.xsdottedsquare
+{
+    border: 1px solid green;
+    height: 250px;
+    
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.xsdottedsquare li
+{
+    list-style: none;
+    display:block;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 50px;
+    width:100px;
+}
+
+.panna{
+height:300px;
+width:500px;
+margin:100px 0 0 80px;
+}
+
+@media(max-width:768px)
+{
+    .panna
+    {
+    margin-left: -5px;
+
+    }
+}
+
+.square
+{
+    height:300px;
+    width:300px;
+    border: 3px dotted #046A38;
+    margin-left: 150px;
+    margin-top: 100px;
+    transform: rotate(43deg);
+    font-size: 20px;
+}
+
+@media(max-width:768px){
+    .square
+{
+    height:250px;
+    width:250px;
+    border: 3px dotted #046A38;
+    margin-left: 50px;
+    margin-top: 100px;
+    transform: rotate(43deg);
+    font-size: 15px;
+}
+}
+
+.timings h4
+{
+    margin-top:-230px;
+    margin-left:260px;
+}
+
+.timings h5
+{
+    margin-left:220px;
+    font-size:17px;
+    padding-top:20px;
+    font-family: 'Wire One', sans-serif;
+}
+.cheese
+{
+   height:600px;
+    width:500px;
+    margin:100px 0 0 80px;
+    float:right;
+    margin-top: -150px;
+}
+
+@media(max-width:768px){
+    .cheese
+    {
+        height:600px;
+        width:375px;
+        margin-top: 140px;
+    }
+    .timings h4
+    {
+        margin-left: 140px;
+        
+    }
+    
+    .timings h5
+    {
+        margin-left: 100px;
+
+    }
+}
+
+.drawing
+{
+    height:600px;
+    width: 550px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.about{
+    float: right;
+    width:400px;
+    margin-top: 250px;
+    font-family: 'Tangerine', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.interior
+{
+    height:700px;
+    width:500px;
+    margin:180px 0 0 50px;
+}
+
+.oval
+{
+    height:450px;
+    width: 300px;
+    border: 3px dotted #046A38;
+    float: right;
+    margin:100px 100px 0 0;
+     border-radius: 50%;
+}
+.btn-default
+{
+    background-color:rgb(254,252,243);
+    border-color: #046A38;
+    color: #046A38;
+    width:150px;
+    margin-top: 40px;
+    
+}
+.btn-default:hover
+{
+    background-color:  #046A38;
+    color:rgb(254,252,243)
+}
+
+.kitchen
+{
+    float:right;
+    height:300px;
+    width: 450px;
+    margin-top: 200px;
+    margin-right: -50px;
+}
+
+.newsletter
+{
+    height:200px;
+    width:600px;
+   margin-left: 250px;
+    border: 3px dotted #046A38;
+    margin-top: 300px;
+}
+.email
+{
+    text-decoration:underline;
+   font-family: 'Wire One', sans-serif;
+    font-size:20px;
+    margin-left:140px;
+   
+}
+

@@ -1,0 +1,20 @@
+body
+{
+    background-color:rgb(254,252,243) !important;
+    color:#046A38 !important;
+    overflow-x: hidden;
+}
+
+
+
+#myNavbar
+{
+    background-color: rgb(254,252,243) !important;
+    border-bottom-color: rgb(254,252,243) !important;
+}
+
+.nav li
+{
+    padding-left:120px;
+    margin-top: 15px;
+}
