@@ -4,3 +4,50 @@
     border: 2px solid #046A38;
     margin-top: 100px;
 }
+.followUs
+{
+    border-right:2px dotted green;
+}
+.title
+{
+    text-align:center;
+    margin-top:80px;
+    line-height:20px;
+}
+.title1
+{
+    border-right:2px dotted green;
+    
+}
+.followUs i
+{
+    padding-left: 10px;
+    cursor: pointer;
+}
+@media(max-width:768px)
+{   .footer
+    {
+        height:300px !important;
+        width:350px !important;
+    }
+    .followUs,.title
+    {
+       border-right:none;
+    padding-top: 10px;
+    }
+    .title1
+    {
+        border-right:none;
+        margin-bottom: 10px;
+        margin-top: -40px !important;
+        
+    }
+    .contact
+    {
+        padding-top: 15px;
+    }
+    .followUs
+    {
+        margin-bottom: 10px;
+    }
+}
